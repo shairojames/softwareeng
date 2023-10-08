@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sidebar and Content Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="content">
+       
+            <head>
+    <title>Dashboard</title>
+    <style>
+         .search-box {
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .search-box input {
+            width: 100px; /* Adjust the width as needed */
+            margin: 3px; /* Adjust the margins as needed */
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Dashboard</h1>
+        <form>
+            <div class="search-box">
+                <label for="instructor">Instructor:</label>
+                <input type="text" id="instructor" name="instructor">
+            </div>
+            <div class="search-box">
+                <label for="room">Room#:</label>
+                <input type="text" id="room" name="room">
+            </div>
+            <div class="search-box">
+                <label for="day">Day:</label>
+                <input type="text" id="day" name="day">
+            </div>
+            <div class="search-box">
+                <label for="hour">Hour:</label>
+                <input type="text" id="hour" name="hour">
+            </div>
+            <div class="search-box">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
